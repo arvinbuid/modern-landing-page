@@ -1,6 +1,7 @@
 import Container from "../shared/Container"
 import logo from "../../assets/icon.svg"
 import NavItem from "../shared/NavItem"
+import BtnLink from "../shared/BtnLink"
 
 const navItems = [
     { href: "#", text: "Home" },
@@ -35,6 +36,16 @@ const Navbar = () => {
                                 <NavItem href={item.href} text={item.text} key={key} />
                             ))}
                         </ul>
+
+                        {/* CTA Button */}
+                        <div
+                            className="lg:min-w-max flex items-center sm:w-max w-full pb-6 
+                            lg:pb-0 border-b border-box-border lg:border-0
+                            px-6 lg:px-0"
+                        >
+                            <BtnLink text="Get Started" href="#cta" />
+                        </div>
+
                     </div>
                 </nav>
             </Container>
