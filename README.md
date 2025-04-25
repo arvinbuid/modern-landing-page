@@ -1,54 +1,59 @@
-# React + TypeScript + Vite
+# Modern Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  <br />
+  <a href="https://youtu.be/qeCBBxZoqAM" target="_blank">
+    <!-- <img src="" alt="Project Banner"> -->
+  </a>
+  <br />
+  <div>
+    <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+    <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+    <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/-Zustand-000?style=for-the-badge" alt="Zustand" />
+  </div>
+  <h3 align="center">A Beautiful, Modern Looking Landing Page</h3>
+  <br />
+</div>
 
-Currently, two official plugins are available:
+## ⚙️ Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** – For building the user interface
+- **Vite** – For fast development and optimized builds
+- **Tailwind CSS** – For rapid, responsive styling using a design token system
+- **TypeScript** – For type safety and modern JavaScript features
+- **Zustand** – For lightweight state management and theme persistence
 
-## Expanding the ESLint configuration
+## ⚡️ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Modern Landing Page Design:**  
+  A sleek, responsive design that highlights the website unique value.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **Dark/Light Mode:**  
+  Seamlessly toggle between dark and light mode with Zustand and Tailwind CSS design tokens.
+
+- **Interactive Components:**  
+  Build reusable sections such as Hero, Features, Pricing, and CTA using React components.
+
+- **Animated Elements:**  
+  Smooth hover animations and gradient effects for a dynamic user experience.
+
+- **State Management:**  
+  Global UI state management with Zustand ensures persistent theme settings across sessions.
+
+## 👌 Getting started
+
+### Installing Dependencies
+
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Running the Development Server
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+npm run dev
 ```
+
+The server is now live on [http://localhost:3000](http://localhost:3000).
