@@ -1,6 +1,7 @@
 import Button from "../shared/Button"
 import Container from "../shared/Container"
 import Paragraph from "../shared/Paragraph"
+import Numbers from "./Numbers"
 
 const Hero = () => {
     return (
@@ -73,6 +74,7 @@ const Hero = () => {
             </Container>
 
             {/* Numbers */}
+            <Numbers />
         </section>
     )
 }
