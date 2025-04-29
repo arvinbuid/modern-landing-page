@@ -30,7 +30,7 @@ const Navbar = () => {
                            text-lg text-heading-2 w-full lg:justify-center lg:items-center"
                         >
                             {navItems.map((item, key) => (
-                                <NavItem href={item.href} text={item.text} key={key} />
+                                <NavItem href={item.href} text={item.text} key={key} className="hover:text-violet-600 transition-colors" />
                             ))}
                         </ul>
 
