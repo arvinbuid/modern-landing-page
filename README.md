@@ -1,9 +1,8 @@
 # Modern Landing Page
 
 <div align="center">
-  <br />
   <a href="https://youtu.be/qeCBBxZoqAM" target="_blank">
-    <!-- <img src="" alt="Project Banner"> -->
+    <img src="src/assets/project-showcase.png" alt="Project Banner">
   </a>
   <br />
   <div>
@@ -13,11 +12,9 @@
     <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript" />
     <img src="https://img.shields.io/badge/-Zustand-000?style=for-the-badge" alt="Zustand" />
   </div>
-  <h3 align="center">A Beautiful, Modern Looking Landing Page</h3>
-  <br />
 </div>
 
-## ⚙️ Tech Stack
+### ⚙️ Tech Stack
 
 - **React** – For building the user interface
 - **Vite** – For fast development and optimized builds
@@ -25,7 +22,7 @@
 - **TypeScript** – For type safety and modern JavaScript features
 - **Zustand** – For lightweight state management and theme persistence
 
-## ⚡️ Features
+### ⚡️ Features
 
 - **Modern Landing Page Design:**  
   A sleek, responsive design that highlights the website unique value.
@@ -42,7 +39,7 @@
 - **State Management:**  
   Global UI state management with Zustand ensures persistent theme settings across sessions.
 
-## 👌 Getting started
+## 🔑 Getting started
 
 ### Installing Dependencies
 
@@ -50,10 +47,17 @@
 npm install
 ```
 
-### Running the Development Server
+### Run
 
 ```bash
+# Run in development mode
 npm run dev
+
+# Build for production
+npm run build
+
+# Run in production mode
+npm start
 ```
 
-The server is now live on [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
