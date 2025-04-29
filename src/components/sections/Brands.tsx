@@ -23,7 +23,7 @@ const Brands = () => {
                     {logos.map((logo, key) => (
                         <div key={key} className="p-4 sm:p-5 bg-body rounded-xl group">
                             <img
-                                src={`src/assets/logos/${logo}.png`}
+                                src={`logos/${logo}.png`}
                                 alt={logo}
                                 width="100"
                                 height="60"
