@@ -34,7 +34,7 @@ const Pricing = () => {
                                         {plan.features.map((feature, keyFeature) => (
                                             <li key={keyFeature} className="flex items-center gap-2">
                                                 <span className="text-primary">✅ </span>
-                                                <span>{feature} </span>
+                                                <span className="text-heading-3">{feature} </span>
                                             </li>
                                         ))}
                                     </ul>
