@@ -1,7 +1,6 @@
 # Modern Landing Page
 
 <div align="center">
-  <a href="https://youtu.be/qeCBBxZoqAM" target="_blank">
     <img src="src/assets/project-showcase.png" alt="Project Banner">
   </a>
   <br />
